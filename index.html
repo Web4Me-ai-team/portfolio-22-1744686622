@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lin Xin yan's Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="profile/1.svg" alt="Lin Xin yan" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Lin Xin yan">Lin Xin yan</h1>
+          <p class="title">Bachelor in Visual Communication Design</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+        </button>
+      </div>
+      <div class="sidebar-info_more" data-sidebar-more>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:Lxy1755598901@163.com" class="contact-link">Lxy1755598901@163.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+18026705036" class="contact-link">18026705036</a>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <i class="fab fa-weixin"></i> WeChat: 18026705036
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Teaching</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <h2>👋 Hi, I'm Lin Xin yan</h2>
+          <p>Developed communication and coordination skills as a promotion officer, ensuring smooth project execution. Familiar with major social media platforms and CRM systems. Strong design sense, logical thinking, and adept at data analysis using Excel. Passionate about exploring new tools like chat GPT to improve work efficiency. Quick learner with keen market insights and strong adaptability.</p>
+        </section>
+      </article>
+
+      <article class="education" data-page="education">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="book-outline"></ion-icon> Education
+          </h2>
+        </header>
+        <section class="timeline" id="education-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Han Shan Normal University</h4>
+              <span class="graduation-date">Expected Graduation 2024</span>
+              <p class="degree">Bachelor</p>
+              <p class="field">Visual Communication Design</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="flask-outline"></ion-icon> Work Experience
+          </h2>
+        </header>
+        <section class="timeline" id="experience-container">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Media Operations Intern</h4>
+              <span class="duration">Jul 2024 - Oct 2024</span>
+              <p class="institution">Guangzhou Langyou Technology Co., Ltd.</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Managed content production, including topic selection, scheduling, review, and publication tracking, achieving a 76.8% viral rate and 68,000 total reads across 95 posts.</li>
+                  <li>Recruited and liaised with over 80 KOLs, enhancing brand recognition and sales in the domestic swimming care market.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Operations Intern</h4>
+              <span class="duration">Dec 2023 - May 2024</span>
+              <p class="institution">Guangzhou Agan Culture Communication Co., Ltd.</p>
+              <div class="description-container">
+                <ul class="description-list">
+                  <li>Managed WeChat and Xiaohongshu accounts, increasing reads by 3500+ and likes/collections by 18,000+.</li>
+                  <li>Implemented user growth campaigns, such as group buying for free classes and gifts, resulting in a 50% increase in reads, 150+ comments, and 200+ new followers.</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="build-outline"></ion-icon> Technical Skills
+          </h2>
+        </header>
+        <section class="skills-container" id="technical-skills-container">
+          <ul class="skills-list">
+            <li class="skill-item">CET-4</li>
+            <li class="skill-item">Good Japanese Listening and Speaking Skills</li>
+            <li class="skill-item">Proficient in using EXCEL, WORD, POWER POINT, PR, AE, PS, AI</li>
+            <li class="skill-item">Familiar with social media platforms: Facebook, Instagram, TikTok</li>
+            <li class="skill-item">Original writing skills</li>
+            <li class="skill-item">Understanding of CRM systems</li>
+            <li class="skill-item">Strong design sense</li>
+            <li class="skill-item">Clear logical thinking</li>
+            <li class="skill-item">Adept at using Excel for data analysis</li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    'use strict';
+
+    // Toggle sidebar contacts
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    const sidebarMore = document.querySelector("[data-sidebar-more]");
+
+    sidebarBtn.addEventListener("click", function () {
+      sidebarMore.classList.toggle("active");
+      sidebarBtn.querySelector("span").textContent = sidebarMore.classList.contains("active") ? "Hide Contacts" : "Show Contacts";
+    });
+
+    // Handle navigation links
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+        this.classList.add("active");
+
+        const pageName = this.textContent.toLowerCase().trim();
+        pages.forEach(page => page.classList.remove("active"));
+        const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+        if (targetPage) {
+          targetPage.classList.add("active");
+          window.scrollTo(0, 0);
+        }
+      });
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
